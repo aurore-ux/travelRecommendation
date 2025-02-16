@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Travel Explorer</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <input type="text" id="searchBar" placeholder="Search destinations...">
+        <button onclick="searchPlaces()">Search</button>
+        <button onclick="clearResults()">Clear</button>
+    </nav>
+    
+    <header>
+        <h2>Welcome to Travel Explorer</h2>
+        <p>Find the best travel destinations suited for you!</p>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a team of passionate travelers providing you with top travel recommendations.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <section id="results"></section>
+    
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
